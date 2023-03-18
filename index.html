@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CJ's Bank</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!-- <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script> -->
+    
+    <h1>Just A Bank</h1>
+    <div class="button-container">
+        <button id="connectButton">Connect Wallet</button>
+    </div>
+    <div class="input-container">
+        <input type="text" placeholder="最低转账0.01ETH" id="ethAmount">
+        <button id="depositButton">deposit</button>
+        <p id="depositSuccess"></p>
+    </div>
+    
+    <div class="button-container">
+        <button id="balanceButton">Balance</button>
+    </div>
+
+    <div class="button-container">
+        <button id="withdrawButton">Withdraw</button>
+    </div>
+
+    <br>
+
+    <h2>Transfer History</h2>
+    <ul id="transfer-history">
+    </ul>
+
+    <script src="index.js" type="module">
+    </script>
+</body>
+
+</html>
